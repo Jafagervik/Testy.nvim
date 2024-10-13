@@ -10,7 +10,7 @@ M.test = function()
 end
 
 M.mvnv = function()
-	return vim.cmd("mvn --version")
+	return vim.cmd(":! mvn --version")
 end
 
 return M
