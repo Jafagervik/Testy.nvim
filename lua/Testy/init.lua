@@ -1,4 +1,4 @@
-local u = require("Testy.utils")
+local utils = require("Testy.utils")
 local M = {}
 
 M.show = function()
@@ -6,7 +6,8 @@ M.show = function()
 end
 
 M.test = function()
-	u.test()
+	utils.test()
+	local command = "mvn -T 1 clean spotless:apply package"
 end
 
 return M
