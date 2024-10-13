@@ -7,7 +7,10 @@ end
 
 M.test = function()
 	utils.test()
-	local command = "mvn -T 1 clean spotless:apply package"
+end
+
+M.mvnv = function()
+	return vim.cmd("mvn --version")
 end
 
 return M
