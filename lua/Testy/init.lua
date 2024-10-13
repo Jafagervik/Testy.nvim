@@ -1,6 +1,6 @@
 local M = {}
 
-function M.test()
+M.test = function()
 	print("hello from function")
 end
 
