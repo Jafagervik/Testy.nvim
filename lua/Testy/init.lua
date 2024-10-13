@@ -1,4 +1,4 @@
-local u = require("utils.lua")
+local u = require("Testy.utils")
 local M = {}
 
 M.show = function()
