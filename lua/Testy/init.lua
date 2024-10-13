@@ -1,9 +1,7 @@
-print("Hello")
+local M = {}
 
-local function testt()
+function M.test()
 	print("hello from function")
 end
 
-return {
-	testt = testt,
-}
+return M
